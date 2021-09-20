@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.topContent{
+    display: flex;
+    color: black;
+
+}
+.topContent_left{
+    flex: 1;
+    position: relative;
+    top: 280px;
+    right: -200px;
+    
+
+}
+.topContent_left > h1 {
+    color: blueviolet;
+    font-size: 3rem;
+}
+.topContent_left > p {
+    font-family: "ubuntu" ,sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.25rem;
+    padding-right: 350px;
+}
+.topContent_right{
+    background-image: url("../../assets/mypic1.jpeg.jpeg");
+    background-position: center;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: 80% 90%;
+	
+	height:100vh;
+    top:100px;
+}
+
+.topContent_downloadbutton{
+    color: black;
+    border: 1px solid blueviolet;
+    background-color: white ;
+    font-size: 1.2rem;
+    font-family: "Ubuntu",sans-serif;
+    padding: 10px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.topContent_downloadbutton:hover{
+    color: white;
+    background-color: blueviolet;
+    font-weight: 300;
+}
+.topContent_contactbutton{
+    color: white;
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    font-family: "Ubuntu",sans-serif;
+    padding: 10px 20px; 
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.topContent_contactbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 300;
+}

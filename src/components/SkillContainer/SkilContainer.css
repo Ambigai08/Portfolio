@@ -1,0 +1,59 @@
+.skillcontainer{
+    padding-top: 110px;
+}
+.skillcontainer_skills{
+    display: flex;
+    justify-content: center;
+   margin: 50px;
+}
+.skillcontainer_text{
+    text-align: center;
+    color: black;
+}
+
+.skillcontainer_left > h3{
+    color: black;
+    font-size: 1.5rem;
+
+}
+
+.skillcontainer_left{
+color:grey;
+flex: 1;
+text-align: left;
+max-width: 500px;
+margin-bottom:20px ;
+padding: 0 60px;
+}
+
+.skillcontainer_right > h3 {
+    color: black;
+    font-size: 1.5rem;
+
+}
+.skillcontainer_right{
+ color: grey;
+flex: 1;
+text-align: left;
+max-width: 500px;
+margin-bottom:20px ;
+padding: 0 60px;
+
+}
+.skillcontainer_devloper{
+    padding: 20px 0px;
+}
+
+.skillcontainer_devloper > h5
+{
+    font-size: 0.9rem;
+
+}
+
+
+
+.skillcontainer_slider{
+    padding: 3px 0px;
+    size: 10px;
+
+}

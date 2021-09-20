@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Alatsi&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+.header {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: white;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+
+.header_left {
+    flex: 0.4;
+}
+
+.header_left > h2 {
+    text-align: center;
+    font-family: "Alata", sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+.header_left > h2 > spam {
+    color: blueviolet;
+}
+
+.header_right{
+    display: flex;
+    flex: 0.6;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header_right > a > h4 {
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    font-family: "Crimson Text", serif;
+    transition: transform 0.3s ;
+}
+
+.header_right > a > h4:hover {
+    transform: scale(1.03);
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header_joinbutton{
+    color: white;
+    border: 1px solid blueviolet;
+    background-color: blueviolet ;
+    font-size: 1.2rem;
+    font-family: "Crimson",sans-serif;
+    padding: 10px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.header_joinbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 300;
+}
+
