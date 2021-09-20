@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.8515bb6d.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.34e2c4d0.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.34e2c4d0.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.29d7b25f.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.29d7b25f.js.map",
+    "static/js/2.a0b07fff.chunk.js": "/MyPortfolio/static/js/2.a0b07fff.chunk.js",
+    "static/js/2.a0b07fff.chunk.js.map": "/MyPortfolio/static/js/2.a0b07fff.chunk.js.map",
+    "static/js/3.6f2fe44f.chunk.js": "/MyPortfolio/static/js/3.6f2fe44f.chunk.js",
+    "static/js/3.6f2fe44f.chunk.js.map": "/MyPortfolio/static/js/3.6f2fe44f.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/main.8515bb6d.chunk.css.map": "/MyPortfolio/static/css/main.8515bb6d.chunk.css.map",
+    "static/js/2.a0b07fff.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.a0b07fff.chunk.js.LICENSE.txt",
+    "static/media/TopContainer.css": "/MyPortfolio/static/media/mypic1.jpeg.2f470e1a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29d7b25f.js",
+    "static/js/2.a0b07fff.chunk.js",
+    "static/css/main.8515bb6d.chunk.css",
+    "static/js/main.34e2c4d0.chunk.js"
+  ]
+}
