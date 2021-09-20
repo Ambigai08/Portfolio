@@ -1,0 +1,38 @@
+.experience > img{
+    width: 350px;
+    height: 200px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.experience{
+    margin: 15px;
+    width: 350px;
+    height: 200px;
+    transition: tranform 100ms ease-in;
+
+}
+
+.experience:hover{
+    color: white;
+    background-color: blueviolet;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.experience_content {
+    padding: 10px;
+}
+
+.experience_content > h2{
+    padding-bottom: 10px;
+}
+
+.experience_content > p {
+    font-size: 1.2rem;
+}

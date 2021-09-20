@@ -1,0 +1,83 @@
+
+.projectcontainer_text{
+ padding-top: 100px;
+ padding-left: 680px;   
+}
+
+.projectDetailMain
+{
+   margin: 20px 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.modal{
+    position: absolute;
+
+}
+
+
+
+.projectcontainer_inner{
+    margin: 100px 0;
+   padding: 100px 50px 20px 50px;
+    border: 2px solid blueviolet;
+}
+
+.projectcontainer_inner > h2 
+{
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+.btn-modal {
+    color: black;
+    border: 1px solid white;
+    background-color: blueviolet ;
+    font-size: 1.2rem;
+    font-family: "Ubuntu",sans-serif;
+    padding: 10px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin: 40px 0; 
+    
+}
+
+.modal-content {
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 50px 100px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.modal-content > h2 {
+    color: blueviolet;
+    padding-top: -50px;
+    padding-bottom: 20px;
+
+}
+
+.modal-content > p {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.close-modal {
+    border-radius: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    color: blueviolet;
+    font-size: 1.4rem;
+}
+ 
